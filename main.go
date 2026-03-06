@@ -127,6 +127,9 @@ func main() {
 
 	fmt.Printf("\n=== JSON Output ===\n")
 	fmt.Println(string(jsonOutput))
+
+	// Export to files
+	exportToFiles(allResults)
 }
 
 func fetchURL(url string) (string, error) {
@@ -190,6 +193,23 @@ func sortResults(order string, results []DecodedConfig) {
 			return results[i].SubKey < results[j].SubKey
 		})
 	}
+}
+
+func exportToFiles(results []DecodedConfig) {
+	// Create output directory
+	os.MkdirAll("output", 0755)
+	
+	// Export as JSON
+	jsonData, err := json.MarshalIndent(results, "", "  ")
+	if err == nil {
+		os.WriteFile("output/sub.json", jsonData, 0644)
+		fmt.Println("Exported to output/sub.json")
+	}
+	
+	// Export as base64
+	base64Data := base64.StdEncoding.EncodeToString(jsonData)
+	os.WriteFile("output/sub.base64", []byte(base64Data), 0644)
+	fmt.Println("Exported to output/sub.base64")
 }
 
 func getValueOrFalse(value string) interface{} {
