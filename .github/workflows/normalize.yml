@@ -34,4 +34,5 @@ jobs:
           git remote add origin https://github-action:$GITHUB_TOKEN@github.com/ircfspace/XrayRefiner.git
           git add .
           git commit -m "Auto export from DnsRefiner"
+          git branch -M main
           git push -f origin main
