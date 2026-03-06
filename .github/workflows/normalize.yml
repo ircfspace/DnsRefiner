@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,20 +19,25 @@ jobs:
         with:
           go-version: "1.22"
 
-      - name: Run DnsRefiner
+      - name: Build
         run: |
-          go run main.go -dir ${{ github.event.inputs.export_dir || 'export' }}
+          go build -o xsr ./cmd/dnsrefiner
 
-      - name: Export to GitHub
+      - name: Run
+        run: |
+          mkdir -p ./export
+          ./xsr -config config.yaml -out export
+
+      - name: Commit & push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd ${{ github.event.inputs.export_dir || 'export' }}
+          cd ./export
           git init
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote add origin https://github-action:$GITHUB_TOKEN@github.com/ircfspace/XrayRefiner.git
+          git remote add origin https://github-action:$GITHUB_TOKEN@github.com/ircfspace/DnsRefiner.git
+          git branch -M export
           git add .
-          git commit -m "Auto export from DnsRefiner"
-          git branch -M main
-          git push -f origin main
+          git commit -m "Update export"
+          git push -f origin export
