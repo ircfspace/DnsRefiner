@@ -1,0 +1,37 @@
+name: Normalize Subscriptions
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 */3 * * *"
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Run DnsRefiner
+        run: |
+          go run main.go -dir ${{ github.event.inputs.export_dir || 'export' }}
+
+      - name: Export to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd ${{ github.event.inputs.export_dir || 'export' }}
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin https://github-action:$GITHUB_TOKEN@github.com/ircfspace/XrayRefiner.git
+          git add .
+          git commit -m "Auto export from DnsRefiner"
+          git push -f origin main
