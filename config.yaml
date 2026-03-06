@@ -6,7 +6,7 @@ output_order: "RAND"  # ASC, RAND, or DESC
 
 subscriptions:
   - key: "dnsttTest"
-    url: "https://gist.githubusercontent.com/ircfspace/54849851884c61a08a84da07b8d32962/raw/bbbf417706e9ef7cbbe79b74e14d4c5a3be56690/dnstt-test"
+    url: "https://gist.githubusercontent.com/ircfspace/54849851884c61a08a84da07b8d32962/raw/f0ba4fe49f19a779c3db0f923a0a9958c74456a0/dnstt-test"
   - key: "donation"
     url: "https://donate-api.defyxvpn.com/donate/subscription/dns"
   - key: "vpnHub"
