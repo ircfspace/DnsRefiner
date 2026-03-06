@@ -1,0 +1,11 @@
+allowed_schemes:
+  - "slipnet"
+  - "dns"
+
+output_order: "RAND"  # ASC, RAND, or DESC
+
+subscriptions:
+  - key: "mahsaXray"
+    url: "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt"
+  - key: "dnstt-sub"
+    url: "https://gist.githubusercontent.com/ircfspace/54849851884c61a08a84da07b8d32962/raw/bbbf417706e9ef7cbbe79b74e14d4c5a3be56690/dnstt-test"
