@@ -21,7 +21,7 @@ jobs:
 
       - name: Build
         run: |
-          go build -o xsr ./cmd/dnsrefiner
+          go build -o xsr ./
 
       - name: Run
         run: |
