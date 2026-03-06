@@ -196,20 +196,20 @@ func sortResults(order string, results []DecodedConfig) {
 }
 
 func exportToFiles(results []DecodedConfig) {
-	// Create output directory
-	os.MkdirAll("output", 0755)
+	// Create export directory
+	os.MkdirAll("export", 0755)
 	
 	// Export as JSON
 	jsonData, err := json.MarshalIndent(results, "", "  ")
 	if err == nil {
-		os.WriteFile("output/sub.json", jsonData, 0644)
-		fmt.Println("Exported to output/sub.json")
+		os.WriteFile("export/sub.json", jsonData, 0644)
+		fmt.Println("Exported to export/sub.json")
 	}
 	
 	// Export as base64
 	base64Data := base64.StdEncoding.EncodeToString(jsonData)
-	os.WriteFile("output/sub.base64", []byte(base64Data), 0644)
-	fmt.Println("Exported to output/sub.base64")
+	os.WriteFile("export/sub.base64", []byte(base64Data), 0644)
+	fmt.Println("Exported to export/sub.base64")
 }
 
 func getValueOrFalse(value string) interface{} {
