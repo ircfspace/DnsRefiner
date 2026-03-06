@@ -19,14 +19,9 @@ jobs:
         with:
           go-version: "1.22"
 
-      - name: Build
+      - name: Run DnsRefiner
         run: |
-          go build -o xsr ./
-
-      - name: Run
-        run: |
-          mkdir -p ./export
-          ./xsr -config config.yaml -out export
+          go run main.go -dir ${{ github.event.inputs.export_dir || 'export' }}
 
       - name: Commit & push changes
         env:
