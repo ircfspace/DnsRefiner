@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/base64"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io"
 	"math/rand"
@@ -18,6 +19,7 @@ import (
 type Config struct {
 	AllowedSchemes []string `yaml:"allowed_schemes"`
 	OutputOrder  string   `yaml:"output_order"`
+	ExportDir    string   `yaml:"export_dir"`
 	Subscriptions  []struct {
 		Key string `yaml:"key"`
 		URL string `yaml:"url"`
@@ -35,6 +37,11 @@ type DecodedConfig struct {
 }
 
 func main() {
+	// Parse command line flags
+	var exportDir string
+	flag.StringVar(&exportDir, "dir", "export", "Directory to export files")
+	flag.Parse()
+	
 	// Read config file
 	configData, err := os.ReadFile("config.yaml")
 	if err != nil {
@@ -62,6 +69,11 @@ func main() {
 		content, err := fetchURL(sub.URL)
 		if err != nil {
 			fmt.Printf("Error fetching %s: %v\n", sub.Key, err)
+			continue
+		}
+
+		if content == "" {
+			fmt.Printf("Warning: Empty content for %s\n", sub.Key)
 			continue
 		}
 
@@ -129,7 +141,7 @@ func main() {
 	fmt.Println(string(jsonOutput))
 
 	// Export to files
-	exportToFiles(allResults)
+	exportToFiles(allResults, config.ExportDir)
 }
 
 func fetchURL(url string) (string, error) {
@@ -195,26 +207,48 @@ func sortResults(order string, results []DecodedConfig) {
 	}
 }
 
-func exportToFiles(results []DecodedConfig) {
+func exportToFiles(results []DecodedConfig, exportDir string) {
 	// Create export directory
-	os.MkdirAll("export", 0755)
+	dirName := "export"
+	if exportDir != "" {
+		dirName = exportDir
+	}
+	os.MkdirAll(dirName, 0755)
 	
-	// Export as JSON
-	jsonData, err := json.MarshalIndent(results, "", "  ")
-	if err == nil {
-		os.WriteFile("export/sub.json", jsonData, 0644)
-		fmt.Println("Exported to export/sub.json")
+	// Group results by subscription key
+	subscriptions := make(map[string][]DecodedConfig)
+	for _, result := range results {
+		subscriptions[result.SubKey] = append(subscriptions[result.SubKey], result)
 	}
 	
-	// Export as base64
-	base64Data := base64.StdEncoding.EncodeToString(jsonData)
-	os.WriteFile("export/sub.base64", []byte(base64Data), 0644)
-	fmt.Println("Exported to export/sub.base64")
+	// Export each subscription to separate directory
+	for subKey, configs := range subscriptions {
+		// Create subdirectory for this subscription
+		subDir := fmt.Sprintf("%s/%s", dirName, subKey)
+		os.MkdirAll(subDir, 0755)
+		
+		// Export JSON
+		jsonData, err := json.MarshalIndent(configs, "", "  ")
+		if err == nil {
+			jsonFile := fmt.Sprintf("%s/sub.json", subDir)
+			os.WriteFile(jsonFile, jsonData, 0644)
+			fmt.Printf("Exported %d configs to %s/sub.json\n", len(configs), subDir)
+		}
+		
+		// Export base64
+		allJsonData, err := json.MarshalIndent(configs, "", "  ")
+		if err == nil {
+			base64Data := base64.StdEncoding.EncodeToString(allJsonData)
+			base64File := fmt.Sprintf("%s/sub.base64", subDir)
+			os.WriteFile(base64File, []byte(base64Data), 0644)
+			fmt.Printf("Exported all configs to %s/sub.base64\n", subDir)
+		}
+	}
 }
 
 func getValueOrFalse(value string) interface{} {
 	if value == "" {
-		return false
+		return nil
 	}
 	return value
 }
