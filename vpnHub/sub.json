@@ -1,0 +1,128 @@
+[
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t.arash.email",
+    "pubKey": "020b44611bfc7e6a67daf82b94c10d1a19fd68eb94056c83ced022e839aaed54",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s2.softdivar98.ir",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s2.adaspoloandco.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "ds2.softdivar98.ir",
+    "pubKey": "0dd6803bf8e0fc80ddf0c3eba8796ae108a14b7b6fe21efe03fbd8595583632f",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t.arash.email",
+    "pubKey": "020b44611bfc7e6a67daf82b94c10d1a19fd68eb94056c83ced022e839aaed54",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t2.adaspoloandco.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "d2.adaspolo2.store",
+    "pubKey": "7d032d42bd0c552c29bc2c57bf7788fa55da5aa09a9aba3c016a1af5b3e50b6f",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t2.softdivar98.ir",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "10.255.255.254:53",
+    "ns": "t2.iampedi2.live",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "ds2.adaspoloandco.com",
+    "pubKey": "103cba9c85fbce69ba31136e177652d4a077e35e4e5b7344fbe8c9d0f897ba14",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "d2.adaspoloandco.com",
+    "pubKey": "5c44172dd037c1e8487e81d5bf5d46fc7808d4cac9602a06647f80c198fa6d6c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "d2.softdivar98.ir",
+    "pubKey": "35ffae97e1c74a39721af42b2b152e191028434595af404ca01b86c052f22b6d",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t2.adaspolo2.store",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s2.adaspolo2.store",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  }
+]
