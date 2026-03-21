@@ -1,0 +1,452 @@
+[
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "z.jnir.my",
+    "pubKey": "689607f8cbf5c2288dbe5f5300cab1974bb52dc38a31598fde92876ce4b22f1a",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "102.37.12.10:53",
+    "ns": "z1.lotussec.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s.jnir.my",
+    "pubKey": "d3daa7b4afcb2bdd58d4e11d1b4dae1fe64caf07edbf5b9633d525f6739c9d4c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "z.iampedi7.live",
+    "pubKey": "e75ab3f76f29d5737b29ff30d4343439ef510d78d13b3e7dac9d76e2fcaa8434",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.208.142:53",
+    "ns": "aw.nvrgoc.com",
+    "pubKey": "0739f1e2df07ffcd647b2e9f530b9064fc0c098fd844640ce66284a34b27cf6d",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "w.not3rf4n.site",
+    "pubKey": "e1d912ffd1a40b2d4bbdcc8862da8e3b44695fc54bd2d98dbf1038bece4d9020",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t.jnir.my",
+    "pubKey": "d3daa7b4afcb2bdd58d4e11d1b4dae1fe64caf07edbf5b9633d525f6739c9d4c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "n.jnir.my",
+    "pubKey": "19deff7a14f4382cc8b650dbb05a10bb34d25c8cdd5b2cb085435556f352fa7f",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "102.37.12.10:53",
+    "ns": "s1.lotussec.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "t3.allhubb.info",
+    "pubKey": "becbad376d36c5884d6d5f601e02b7eae6bbaa33ca466347b41e109e92c6ea3c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "z1.arash.email",
+    "pubKey": "7a93e9de35997460957e2c5900270ff7c255594cf06c3c1e673d170b1d51fe0b",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "z.filmbebin.store",
+    "pubKey": "6c8839e221a0bd9039c9c32a44f016d63465cffb9454d8c851cd4f53cd24a925",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.100:53:1",
+    "ns": "ds.kalbodteam.online",
+    "pubKey": "42d00e50bf6998f8b7c3227abea3dce2057c37caab38c422e07786267fa7735b",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.90:53",
+    "ns": "k4.holdercoin.online",
+    "pubKey": "fae5a49aed908602a0e4ab689575c67941839d11179bb81451251e705af1d778",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53:1",
+    "ns": "t.jnir.my",
+    "pubKey": "3ec730af8c9cb10a383ed40bfa3c02937c33533d5e23aca10a85da88010eef1b",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t.jnir.my",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "t.new-persian-song.ir",
+    "pubKey": "24daf0686250dd5715eb2e428c58588eec46c8374a6cfcba71b353d153477f66",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "w.ninisite.xyz",
+    "pubKey": "6c5f842320fee2939d78559a9aaaa83d14e6aed9d1e046fca559e03e1ca3f703",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "d.kalbod-team.ir",
+    "pubKey": "9d264ef73411e2a2aef46c427b2512ba1f1f35575cb27d4398bdefa66464dd65",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "ds.jnir.my",
+    "pubKey": "8c09b14bed205fd584c7cdc9703db9372078f2077bc5122cad3a764e26480a20",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s.jnir.my",
+    "pubKey": "3ec730af8c9cb10a383ed40bfa3c02937c33533d5e23aca10a85da88010eef1b",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "ds.kalbod-team.ir",
+    "pubKey": "b2fe115c0de5a6c0275f48563e9832d8f5383b33270a9265c146b878207a6843",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "p.parsashonam.shop",
+    "pubKey": "5f95db757b277d277aeda27e97cf9a37d7398f7473997db71b6b23e4f02a441f",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "aw.nvrgoc.com",
+    "pubKey": "0739f1e2df07ffcd647b2e9f530b9064fc0c098fd844640ce66284a34b27cf6d",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s.jnir.my",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "d.jnir.my",
+    "pubKey": "d3daa7b4afcb2bdd58d4e11d1b4dae1fe64caf07edbf5b9633d525f6739c9d4c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "t.pingkhorbot.xyz",
+    "pubKey": "3ff46859f105f5e19d56d527f4a3656c6d477aef38de0d6f522c7faa87ea3f11",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "t3.allhubb.info",
+    "pubKey": "becbad376d36c5884d6d5f601e02b7eae6bbaa33ca466347b41e109e92c6ea3c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.90:53",
+    "ns": "k4.holdercoin.online",
+    "pubKey": "fae5a49aed908602a0e4ab689575c67941839d11179bb81451251e705af1d778",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "p.parsashonam.sbs",
+    "pubKey": "8576ffb3dc52677b3a9b52e322b8d0ad7f3c59ad4f6ba47cf387cd8f90448b1b",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "102.37.12.10:53",
+    "ns": "si1.lotussec.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "102.37.12.10:53",
+    "ns": "n1.lotussec.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "102.37.12.10:53",
+    "ns": "so1.lotussec.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "d.kalbodteam.online",
+    "pubKey": "c0110009d466cef3f40f33092b4d940337fc63d6f266109f91ff5945bd0e5259",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "t6.syncbridge.site",
+    "pubKey": "3fd5f18fe9a2d2814bf6c09f8cfb73389fe7f502568475c9996bc3daf6642a78",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "b3.priv8.ir",
+    "pubKey": "43098fcabcd7d565542013fd47ab0cd1b99bb60a47ce0e5066e06515b9fb0211",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "t.new-persian-song.ir",
+    "pubKey": "24daf0686250dd5715eb2e428c58588eec46c8374a6cfcba71b353d153477f66",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "d.jnir.my",
+    "pubKey": "3ec730af8c9cb10a383ed40bfa3c02937c33533d5e23aca10a85da88010eef1b",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "w.ninisite.xyz",
+    "pubKey": "6c5f842320fee2939d78559a9aaaa83d14e6aed9d1e046fca559e03e1ca3f703",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "ds.jnir.my",
+    "pubKey": "92804454007f76a21fdada73221c7cbf31e3eda4d6271452dc479b131c177942",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "s.dns.xn--q9jyb4c",
+    "pubKey": "a45214eeec97da3631ddda70cb2ef75e6fb50cbd997cf9144d032e7ae93cad48",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "z.kalbod-team.ir",
+    "pubKey": "853c8f74afb210a97d36e03327831a99102743ad6721c0805c27e4feaf529919",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "ds.devefunx.net",
+    "pubKey": "036e2cfa57b21bf1370999f051b27fc0fc29ee024a4a5a02d4c64cc7de7ad560",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "z.kalbodteam.online",
+    "pubKey": "fd30b4116b2d386a1113abac3175e99ed8d3916f34231bfaf176093a92085d58",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "g.tonnel.network",
+    "pubKey": "f2952257b93874d24cc166b2c537a664fa2bca1ef9207d51b58c4589c47bd81a",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53:1",
+    "ns": "ds.kalbodteam.online",
+    "pubKey": "42d00e50bf6998f8b7c3227abea3dce2057c37caab38c422e07786267fa7735b",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "z.jnir.my",
+    "pubKey": "4d8600941acd1d469952df30843794ad378158a9f8826b0cf6d4efe2f149f55c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "n.jnir.my",
+    "pubKey": "b2f33414b582c0e0906706f174e44550d0def31ea10a43e092ff9ca9adb39b00",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "aw.nvrgoc.com",
+    "pubKey": "0739f1e2df07ffcd647b2e9f530b9064fc0c098fd844640ce66284a34b27cf6d",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "102.37.12.10:53",
+    "ns": "r1.lotussec.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  }
+]
