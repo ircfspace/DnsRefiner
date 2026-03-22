@@ -1,12 +1,15 @@
 allowed_schemes:
   - "slipnet"
   - "dns"
+  - "dnstt"
 
 output_order: "RAND"  # ASC, RAND, or DESC
 
 subscriptions:
   - key: "dnsttTest"
     url: "https://gist.githubusercontent.com/ircfspace/54849851884c61a08a84da07b8d32962/raw/f0ba4fe49f19a779c3db0f923a0a9958c74456a0/dnstt-test"
+  - key: "v2boxTest"
+    url: "https://gist.githubusercontent.com/ircfspace/2c31b6e39382a68a6f255703fda33f40/raw/8242e7306b0a6b72cd016a7d1950b58aad352264/gistfile1.txt"
   - key: "donation"
     url: "https://donate-api.defyxvpn.com/donate/subscription/dns"
   - key: "vpnHub"

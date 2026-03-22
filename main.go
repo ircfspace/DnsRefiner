@@ -8,6 +8,7 @@ import (
 	"io"
 	"math/rand"
 	"net/http"
+	"net/url"
 	"os"
 	"sort"
 	"strings"
@@ -89,28 +90,39 @@ func main() {
 			for _, scheme := range config.AllowedSchemes {
 				schemePrefix := scheme + "://"
 				if strings.HasPrefix(line, schemePrefix) {
-					// Extract Base64 part
+					// Extract the part after scheme
 					base64Part := strings.TrimPrefix(line, schemePrefix)
 					
-					// Decode Base64
+					// Try to decode as Base64 first
 					decoded, err := decodeBase64(base64Part)
-					if err != nil {
-						fmt.Printf("Error decoding Base64 for %s: %v\n", sub.Key, err)
-						continue
-					}
-
-					// Extract addr, ns, pubKey based on scheme
 					var addr, ns, user, pass, pubKey string
-					if scheme == "dns" {
-						if decodedMap, ok := decoded.(map[string]interface{}); ok {
-							addr = getString(decodedMap, "addr")
-							ns = strings.TrimSuffix(getString(decodedMap, "ns"), ".")
-							user = getString(decodedMap, "user")
-							pass = getString(decodedMap, "pass")
-							pubKey = getString(decodedMap, "pubkey")
+					
+					if err != nil {
+						// If Base64 decoding fails, treat as plain URL
+						if scheme == "dnstt" {
+							// Parse dnstt URL directly
+							addr, ns, pubKey, user, pass = parseDnsttConfig(line)
+						} else {
+							// For other schemes, skip if not Base64
+							fmt.Printf("Error decoding Base64 for %s: %v\n", sub.Key, err)
+							continue
 						}
-					} else if scheme == "slipnet" {
-						addr, ns, pubKey = parseSlipnetConfig(decoded.(string))
+					} else {
+						// Base64 decoding succeeded, process based on scheme
+						if scheme == "dns" {
+							if decodedMap, ok := decoded.(map[string]interface{}); ok {
+								addr = getString(decodedMap, "addr")
+								ns = strings.TrimSuffix(getString(decodedMap, "ns"), ".")
+								user = getString(decodedMap, "user")
+								pass = getString(decodedMap, "pass")
+								pubKey = getString(decodedMap, "pubkey")
+							}
+						} else if scheme == "slipnet" {
+							addr, ns, pubKey = parseSlipnetConfig(decoded.(string))
+						} else if scheme == "dnstt" {
+							// For dnstt, even if Base64 decoded, we still parse the original line
+							addr, ns, pubKey, user, pass = parseDnsttConfig(line)
+						}
 					}
 
 					result := DecodedConfig{
@@ -267,6 +279,49 @@ func min(a, b int) int {
 		return a
 	}
 	return b
+}
+
+func parseDnsttConfig(line string) (addr, ns, pubKey, user, pass string) {
+	// Parse the dnstt URL: dnstt://publickey@host:port?authoritative=false&dns=addr#dnstt
+	
+	// Extract URL part (remove scheme prefix)
+	urlStr := strings.TrimPrefix(line, "dnstt://")
+	
+	// Parse URL
+	parsedURL, err := url.Parse("dnstt://" + urlStr)
+	if err != nil {
+		return "", "", "", "", ""
+	}
+	
+	// Extract public key from userinfo
+	pubKey = parsedURL.User.Username()
+	
+	// Extract ns from host
+	ns = parsedURL.Hostname()
+	if port := parsedURL.Port(); port != "" {
+		ns = ns + ":" + port
+	}
+	
+	// Parse query parameters
+	query := parsedURL.Query()
+	
+	// Get authoritative flag
+	authoritative := query.Get("authoritative")
+	
+	// Get addr from dns parameter
+	addr = query.Get("dns")
+	
+	// Set user/pass based on authoritative flag
+	if authoritative == "false" || authoritative == "" {
+		user = ""
+		pass = ""
+	} else {
+		// Extract user and pass from query parameters when authoritative=true
+		user = query.Get("user")
+		pass = query.Get("pass")
+	}
+	
+	return addr, ns, pubKey, user, pass
 }
 
 func parseSlipnetConfig(decoded string) (addr, ns, pubKey string) {
