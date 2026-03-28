@@ -1,0 +1,101 @@
+[
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "y.not3rf4n.site",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "n.iranmn.best",
+    "pubKey": "0669a5d384c02f6678fac53b52ddbcc127d0967af79c55f2d5e2e4214091c941",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.20:53",
+    "ns": "t.n4s3r-n4s3r.ir",
+    "pubKey": "263e11299355433ff84ffb98b0251a2f545781cb41d0e96050bda21188bc4261",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t.kmjpfilterchi.shop",
+    "pubKey": "29637a5bce84fff97d87545d262d5247ef8860e13b7350ebaf0315afda474a0d",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t.kmjpfilterchi.shop",
+    "pubKey": "29637a5bce84fff97d87545d262d5247ef8860e13b7350ebaf0315afda474a0d",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.100:53",
+    "ns": "d.iranpress26.live",
+    "pubKey": "e0cb5918e4441d37e9e50a4983eeba057158ceb768ad6e5c6518943eff86ef67",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.120:53",
+    "ns": "t.n4s3r-n4s3r.ir",
+    "pubKey": "263e11299355433ff84ffb98b0251a2f545781cb41d0e96050bda21188bc4261",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.177.173.44:53",
+    "ns": "i.tonnel.network",
+    "pubKey": "4a1fbe0a65382faa0de63cbec0c70315d20c73c306e568eed774b9af7718f314",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.120:53:1",
+    "ns": "z.kmjhfilterchi.shop",
+    "pubKey": "2518313fca487bbb06363d353cb263ebbd308bac58ca4fb1060448ec50276227",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s2.manbudamojujekhoroos.shop",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.177.173.44:53",
+    "ns": "i.tonnel.network",
+    "pubKey": "4a1fbe0a65382faa0de63cbec0c70315d20c73c306e568eed774b9af7718f314",
+    "user": null,
+    "pass": null
+  }
+]
