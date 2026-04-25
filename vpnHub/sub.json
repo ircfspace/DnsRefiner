@@ -1,0 +1,146 @@
+[
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "v.irdmc.com",
+    "pubKey": "992dfe4638f0a0686337ff4a60b5f8face03cfcecc52fedbeef104669569e22f",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "t.irdmc.com",
+    "pubKey": "68c40447f379b0c23ce6e05a6da7d369113fe1ea2a646f6cba68ad68ad40dd69",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "n.irdmc.com",
+    "pubKey": "83175983e6f363949c212752a6e647b009e552b697aabaaa969a624458929e75",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "z.irdmc.com",
+    "pubKey": "4d1ef1c6e8e0f35913e89348e39870f17f500cb852827fa11c521206cffb6413",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "109.230.89.76:53",
+    "ns": "x.namaye.shop",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "ds.irdmc.com",
+    "pubKey": "7f389cfef1a42179f3e444a6a5efdaf8191e9b8be54cb8edd214eb7bc3cd372d",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "d.bamak.xyz",
+    "pubKey": "42a197d7c3c4d362e1c9e80ef1794a4e4a3f99144b56195f4397664fb63d7161",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "d.irdmc.com",
+    "pubKey": "68c40447f379b0c23ce6e05a6da7d369113fe1ea2a646f6cba68ad68ad40dd69",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "nd.lotussec.com",
+    "pubKey": "8941228449a8e2843fd5eaf0b8dd95594fe41f25a224126edf06aaccc9972257",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "n2.lotussec.com",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "2.188.21.120:53",
+    "ns": "b.v4.md",
+    "pubKey": "31ab32453c80e1a79245a432ab734d257e13b844d288f989ca9107f8fa7b414c",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "n.bamak.xyz",
+    "pubKey": "5fffaebe974e1da77369259a20bb238b995fa8a6cd578938d4b6550f21260b32",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "v.bamak.xyz",
+    "pubKey": "09ff873b44434510ebc59c6100b02ec0136274b40a49aa546337642e7ccf1b64",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s.irdmc.com",
+    "pubKey": "68c40447f379b0c23ce6e05a6da7d369113fe1ea2a646f6cba68ad68ad40dd69",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "vz.irdmc.com",
+    "pubKey": "d3feb32dc0cc34ad3c77473bc0c1bb1c0a30656012a7fd6ebe3ded432b2c5c17",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "vpnHub",
+    "addr": "8.8.8.8:53",
+    "ns": "s.bamak.xyz",
+    "pubKey": "42a197d7c3c4d362e1c9e80ef1794a4e4a3f99144b56195f4397664fb63d7161",
+    "user": null,
+    "pass": null
+  }
+]
