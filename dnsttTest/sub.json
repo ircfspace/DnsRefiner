@@ -1,0 +1,200 @@
+[
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "199.85.127.10:53",
+    "ns": "d2.iampedi.live",
+    "pubKey": "dff0139a050d17a327cb1b0003cc290f4f27432f23a4811e825c03fef8f60773",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "8.8.8.8:53",
+    "ns": "n.aitrader-app.com",
+    "pubKey": "885d4d1158d209c02a65eb2a858cc4181650d2e1b8d9db26156c8e8646eea208",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "8.8.8.8:53",
+    "ns": "turk-ns.shiraz-pc.store",
+    "pubKey": "ae6f44b9affa5920282be3263e8fad94255e6332d5d1700d814251d5fafc4a44",
+    "user": "reza",
+    "pass": "reza"
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "8.8.8.8",
+    "ns": "t.not3rf4n.site",
+    "pubKey": "34b60434f755d63b401a9d7893b6189b18d969dcaefa9a614f95c8179643b71c",
+    "user": "tel",
+    "pass": "123"
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "1.1.1.1:53",
+    "ns": "u.igoii.org",
+    "pubKey": "d5d4b4147b190e6498eb1a2230275ef1986eda7a6b7e9a6c4d38f89d0cb88607",
+    "user": "unsuser",
+    "pass": "aX2631-Sh1234@R3q4UGdKgBwy4"
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "8.8.8.8:53",
+    "ns": "g.tonnel.network",
+    "pubKey": "f2952257b93874d24cc166b2c537a664fa2bca1ef9207d51b58c4589c47bd81a",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "",
+    "ns": "",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "1.1.1.1:53",
+    "ns": "slowdns-id5.hidesvr.xyz",
+    "pubKey": "7fbd1f8aa0abfe15a7903e837f78aba39cf61d36f183bd604daa2fe4ef3b7b59",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "1.1.1.1:53",
+    "ns": "s2.iampedi.live",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "8.8.4.4:53",
+    "ns": "u.igoii.org",
+    "pubKey": "d5d4b4147b190e6498eb1a2230275ef1986eda7a6b7e9a6c4d38f89d0cb88607",
+    "user": "unsuser",
+    "pass": "aX2631-Sh1234@R3q4UGdKgBwy4"
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "185.202.59.66:53",
+    "ns": "rent.snapp.autos",
+    "pubKey": "a5da2ba2da39ab7dd9dca5f639b4bf02acdf8f8da2ab2d4a373dbf5ff3e0563a",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "109.230.83.155:53",
+    "ns": "ns1.webnegarstore.online",
+    "pubKey": "e68b38a4d186c95eb2283c53ce5e07a2b7ddfdd919412ccf37209532f0fd2401",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "2.177.117.151:53",
+    "ns": "slowdns-id5.hidesvr.xyz",
+    "pubKey": "7fbd1f8aa0abfe15a7903e837f78aba39cf61d36f183bd604daa2fe4ef3b7b59",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "199.85.127.10:53",
+    "ns": "t2.iampedi.live",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "8.8.8.8:53",
+    "ns": "s.yechizealakijadid.store",
+    "pubKey": "858ac6f07e9262a067d5eb637b06ad4c472d51b4a8d228b10f2e0af6a9843a15",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "64.6.64.6:53",
+    "ns": "t2.iampedi1.live",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "9.9.9.9:53",
+    "ns": "r.digikala.cfd",
+    "pubKey": "01f7e63127d6ab2429698b387bbb7678bd6a8912669b9b7d040418d42a2d5a09",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "8.8.8.8:53",
+    "ns": "slowdns-id5.hidesvr.xyz",
+    "pubKey": "7fbd1f8aa0abfe15a7903e837f78aba39cf61d36f183bd604daa2fe4ef3b7b59",
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "",
+    "ns": "",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "2.188.21.130:53",
+    "ns": "u.igoii.org",
+    "pubKey": "d5d4b4147b190e6498eb1a2230275ef1986eda7a6b7e9a6c4d38f89d0cb88607",
+    "user": "unsuser",
+    "pass": "aX2631-Sh1234@R3q4UGdKgBwy4"
+  },
+  {
+    "scheme": "dns",
+    "subKey": "dnsttTest",
+    "addr": "8.8.8.8:53",
+    "ns": "germany-ns.shiraz-pc.store",
+    "pubKey": "7074922fea321665eb49bbd01dc19ed01cdcd8e9afc89c7425eaf4e4006fe12c",
+    "user": "reza",
+    "pass": "reza"
+  },
+  {
+    "scheme": "slipnet",
+    "subKey": "dnsttTest",
+    "addr": "1.1.1.1:53",
+    "ns": "tl.ninisite.xyz",
+    "pubKey": null,
+    "user": null,
+    "pass": null
+  }
+]
