@@ -14,3 +14,5 @@ subscriptions:
     url: "https://donate-api.defyxvpn.com/donate/subscription/dns"
   - key: "vpnHub"
     url: "https://raw.githubusercontent.com/itsyebekhe/persianvpnhub/refs/heads/export/normal"
+  - key: "beni"
+    url: "https://gist.githubusercontent.com/ircfspace/11271b79f4819b2697bc5db7629b0da4/raw/66c69d83b2580896860f772c58022528e0508dda/Beni"
