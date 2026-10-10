@@ -1,0 +1,20 @@
+[
+  {
+    "scheme": "dnstt",
+    "subKey": "v2boxTest",
+    "addr": "185.253.118.87",
+    "ns": "t.crypticwire.vip:443",
+    "pubKey": "750e51ff0f6d88e8690a8cce082461e9a2f91d2f36b112934551dc8b36b53430",
+    "user": "admin",
+    "pass": "123467"
+  },
+  {
+    "scheme": "dnstt",
+    "subKey": "v2boxTest",
+    "addr": "185.253.118.87:53",
+    "ns": "t.crypticwire.vip:443",
+    "pubKey": "750e51ff0f6d88e8690a8cce082461e9a2f91d2f36b112934551dc8b36b53430",
+    "user": null,
+    "pass": null
+  }
+]
