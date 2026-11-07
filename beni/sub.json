@@ -1,0 +1,11 @@
+[
+  {
+    "scheme": "slipnet",
+    "subKey": "beni",
+    "addr": "8.8.8.8:53",
+    "ns": "i3.cluvexstudio.eu.cc",
+    "pubKey": "d36c673edd01ee2d018eedc63de8981e3e51bf8ab51e23579eb70ae7a3a85a05",
+    "user": null,
+    "pass": null
+  }
+]
